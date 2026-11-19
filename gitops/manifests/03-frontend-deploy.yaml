@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: REPLACE_WITH_ECR_FRONTEND_URI:latest
+          image: 074609520447.dkr.ecr.ap-south-1.amazonaws.com/nexus-ops-frontend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80

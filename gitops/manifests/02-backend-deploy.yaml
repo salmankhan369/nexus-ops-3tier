@@ -32,7 +32,7 @@ spec:
                 name: nexus-config
       containers:
         - name: backend
-          image: REPLACE_WITH_ECR_BACKEND_URI:latest
+          image: 074609520447.dkr.ecr.ap-south-1.amazonaws.com/nexus-ops-backend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 4000
