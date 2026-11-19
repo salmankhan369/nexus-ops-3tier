@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nexus-config
+  namespace: nexus-prod
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
+data:
+  PORT: "4000"
+  DB_PORT: "3306"
+  DB_NAME: "nexusdb"
+  DB_HOST: "REPLACE_WITH_RDS_ENDPOINT"
