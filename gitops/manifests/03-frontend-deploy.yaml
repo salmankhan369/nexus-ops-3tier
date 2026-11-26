@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: 074609520447.dkr.ecr.ap-south-1.amazonaws.com/nexus-ops-frontend:49a827f6f484bc302317c4d18488345b35baed7d
+          image: 074609520447.dkr.ecr.ap-south-1.amazonaws.com/nexus-ops-frontend:8e022e8e621c9e2945780b7382809efe4c9c4e29
           imagePullPolicy: Always
           ports:
             - containerPort: 80
