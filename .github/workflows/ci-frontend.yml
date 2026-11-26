@@ -69,4 +69,5 @@ jobs:
           git add gitops/manifests/03-frontend-deploy.yaml
           git commit -m "chore(gitops): update frontend image to $IMAGE_TAG [skip ci]" || exit 0
           git pull --rebase origin main
+          git pull --rebase origin main
           git push

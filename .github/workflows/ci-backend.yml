@@ -69,4 +69,5 @@ jobs:
           git add gitops/manifests/02-backend-deploy.yaml
           git commit -m "chore(gitops): update backend image to $IMAGE_TAG [skip ci]" || exit 0
           git pull --rebase origin main
+          git pull --rebase origin main
           git push
