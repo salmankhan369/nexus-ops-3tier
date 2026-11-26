@@ -32,7 +32,7 @@ spec:
                 name: nexus-config
       containers:
         - name: backend
-          image: 074609520447.dkr.ecr.ap-south-1.amazonaws.com/nexus-ops-backend:ebbe0815d62968c35193ed7df6364fda3884b898
+          image: 074609520447.dkr.ecr.ap-south-1.amazonaws.com/nexus-ops-backend:8e022e8e621c9e2945780b7382809efe4c9c4e29
           imagePullPolicy: Always
           ports:
             - containerPort: 4000
